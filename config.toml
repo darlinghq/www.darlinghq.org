@@ -1,0 +1,43 @@
+baseurl = "https://www.darlinghq.org/"
+languageCode = "en-us"
+title = "Darling"
+theme = "darlinghq"
+
+[[menu.main]]
+	name = "Introduction"
+	url = "/introduction/"
+	weight = 0
+[[menu.main]]
+	name = "Project Status"
+	url = "/project-status/"
+	weight = 1
+[[menu.main]]
+	name = "Source Code"
+	url = "/source-code/"
+	weight = 2
+[[menu.main]]
+	name = "FAQ"
+	url = "/faq/"
+	weight = 3
+[[menu.main]]
+	name = "Developer Zone"
+	url = "/developer-zone/"
+	weight = 4
+[[menu.main]]
+	name = "Contact"
+	url = "/contact/"
+	weight = 5
+
+[[menu.sites]]
+	name = "Wiki"
+	url = "http://wiki.darlinghq.org"
+[[menu.sites]]
+	name = "GitHub Site"
+	url = "https://github.com/darlinghq/darling"
+[[menu.sites]]
+	name = "Issue Tracker"
+	url = "https://github.com/darlinghq/darling/issues"
+[[menu.sites]]
+	name = "Google Group"
+	url = "https://groups.google.com/forum/#!forum/darling-project"
+

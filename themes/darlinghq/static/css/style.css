@@ -1,0 +1,276 @@
+/*
+
+	Theme Name: Darling
+	Author: Lubos Dolezel
+	Website: http://www.darlinghq.org
+	Version: 1.0
+	Description: Darling website theme.
+	
+	CONTENTS
+	-------------
+	- Global resets
+	- Global typography & layout rules
+	- Page styles
+	- Post styles 
+	- General bits 
+	
+	- Media queries
+	
+*/
+
+/* 01 START : Global reset styles */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent}article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}a{margin:0;padding:0;border:0;vertical-align:baseline;background:transparent}ins,mark{background:#333;color:#fff;text-decoration:none}mark{padding:0 .2em;}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted #000;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}::-moz-selection,::-webkit-selection,::selection {text-shadow:none;background:#333;color:#fff;}.cf:before,.cf:after{content:"";display:table;}.cf:after{clear:both;}.cf{zoom:1;}[type=submit]{cursor:pointer;}
+/* 01 END : Global reset styles */
+
+/* START : Global rules */
+* { 
+	-webkit-box-sizing:  border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing:  border-box; 
+	}
+
+html {
+	font-size: 100%; /* Set a 16px base size */
+	font-family: 'Open Sans', sans-serif;
+	}
+
+body {
+	margin: 0 auto;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.5;
+	background-color: white;
+	}
+	
+#logo-row {
+	height: 80px;
+	/* background: linear-gradient(#4242de 0px, #8989db 20%); */
+	background: linear-gradient(#444 0px, #000 25%);
+}
+
+.logo {
+	background-image: url(/img/darling-header-logo.png);
+	background-repeat: no-repeat;
+	height: 80px;
+	display: inline-block;
+	padding: 0 40px 0 75px;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: Bitter, sans-serif;
+	color: white;
+	line-height: 80px;
+	text-shadow: 3px 3px 2px rgba(120, 120, 120, 1);
+}
+
+header {
+    width: 100%;
+}
+
+header .desc {
+	color: #777;
+	font-style: italic;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0px auto;
+}
+
+article {
+	padding: 3ex 0;
+}
+
+aside.comments { display: none; }
+
+nav {
+	background: linear-gradient(#f8b12d 0px, #dc9d28 80%);
+	height: 40px;
+}
+
+nav ul {
+	margin: 0;
+}
+
+nav ul li {
+	display: block;
+	float: left;
+}
+
+nav ul li:hover {
+	background-color: #c7850b;
+}
+
+nav ul li a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	line-height: 40px;
+	padding: 0 20px;
+}
+
+footer {
+	font-size: 80%;
+	padding: 3ex 0;
+	background-color: #eee;
+}
+
+.popup-menu {
+	border-radius: 5px;
+	border: 1px solid #aaa;
+	background-color: #1515d0;
+	background-image: url(/img/darling-header-icon.png);
+	background-repeat: no-repeat;
+	background-position: 3px center;
+	color: white;
+	font-size: 80%;
+	padding: 8px 8px 8px 30px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+header .popup-menu {
+	margin-top: 20px;
+}
+
+.popup-menu .popup-menu-menu {
+	list-style-type: none;
+	position: absolute;
+	visibility: hidden;
+	display: block;
+	margin-left: -16px;
+	padding-top: 10px;
+	box-shadow: 5px 5px 5px #1515d0;
+}
+
+.popup-menu .popup-menu-menu li {
+	background-color: #1515d0;
+	padding: 8px;
+}
+
+.popup-menu .popup-menu-menu li a {
+	color: white;
+	text-decoration: none;
+}
+
+.popup-menu .popup-menu-menu li:hover a {
+	text-decoration: underline;
+}
+
+.popup-menu .popup-menu-menu li:hover {
+	background-color: black;
+}
+
+.popup-menu:hover .popup-menu-menu {
+	visibility: visible !important;
+}
+
+#post-2 h1 {
+    display: none;
+}
+
+/* Set vertical rhythm */
+h1,h2,hgroup,ul,ol,dd,p,figure,pre,table,fieldset,hr {
+    margin-bottom: 24px;
+	margin-bottom: 1.5rem; /* 24px equivalent/fallback */
+	}	
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: normal;
+	}	
+
+blockquote { }
+	blockquote cite { }
+
+p { }	
+
+a { }	
+	a:hover { }	
+
+img, 
+a img {
+	max-width: 100%;
+	}
+
+figure { }
+	figcaption { }
+
+.alignleft,
+.alignright {
+	/* left and right float triggered on bigger screens */
+	float: none;
+	}
+	
+pre {
+	background-color: #eee;
+	padding: 5px;
+}
+
+code, pre {
+    font-family: Inconsolata, monospace;
+}
+
+ul {
+    margin-left: 4ex;
+}
+
+/* END : Global rules */
+
+
+
+/* START : Page styles */
+
+/* END : Page styles */
+
+
+
+/* START : Post styles */
+
+/* END : Post styles */
+
+
+
+/* START : General bits */
+
+/* END : General bits */
+
+
+/* START : Media Queries */
+
+	/* I've added some arbitrary breakpoints to get you started, you don't have to use these - you can remove, edit or add to them however you like. They're just a guide. */
+
+/* 480px equivalent breakpoint */
+/*@media only screen and (min-width: 30em) { 
+}*/
+
+/* 600px equivalent breakpoint */
+/*@media only screen and (min-width: 37.5em) { 
+}*/
+
+/* 768px equivalent breakpoint */
+/*@media only screen and (min-width: 48em) { 
+.alignleft,
+.alignright {
+	float: left;
+	display: inline;	
+	}
+
+	.alignright {
+		float: right;
+	}
+}*/
+
+/* 1024px equivalent breakpoint */
+/*@media only screen and (min-width: 64em) { 
+}*/
+
+/* 1260px equivalent breakpoint */
+/*@media only screen and (min-width: 78.75em) { 
+}*/
+/* END : Media Queries */
+
+
+/* PRINT STYLES */
+
+@media print {
+	/* If you're going to have a print stylesheet, now's the time */
+}
