@@ -7,6 +7,7 @@ Over time, I am going to publish technical articles explaining the inner working
 
 ## Getting Hacking
 
+* [Low Hanging Fruit](/developer-zone/low-hanging-fruit)
 * [What We Want to Get Done](/developer-zone/what-we-want-to-get-done)
 * [Implementing New Frameworks from Scratch](/developer-zone/implementing-new-frameworks-from-scratch)
 
