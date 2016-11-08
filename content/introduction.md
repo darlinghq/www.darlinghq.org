@@ -12,7 +12,7 @@ The aim of the Darling project is to provide the following:
 
 ## Wiki
 
-This is just an introductory article. You can always learn more by visiting the [wiki](http://wiki.darlinghq.org/).
+This is just an introductory article. You can always learn more by visiting the [wiki](https://wiki.darlinghq.org/).
 
 ## Running Applications
 

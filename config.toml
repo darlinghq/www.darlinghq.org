@@ -30,7 +30,7 @@ theme = "darlinghq"
 
 [[menu.sites]]
 	name = "Wiki"
-	url = "http://wiki.darlinghq.org"
+	url = "https://wiki.darlinghq.org"
 [[menu.sites]]
 	name = "GitHub Site"
 	url = "https://github.com/darlinghq/darling"
