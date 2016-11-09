@@ -52,8 +52,27 @@ make
 make install
 ```
 
-Required dependencies on **Debian** (stable): cmake clang bison flex xz-utils libfuse-dev libxml2-dev libicu-dev libssl-dev libbz2-dev zlib1g-dev libudev-dev linux-headers-amd64
-Required dependencies on **Ubuntu** (16.04): cmake clang bison flex xz-utils libfuse-dev libxml2-dev libicu-dev libssl-dev libbz2-dev zlib1g-dev libudev-dev linux-headers-generic
+Required dependencies
+
+**Debian** (stable):
+
+```
+$ sudo apt-get install cmake clang bison flex xz-utils libfuse-dev libxml2-dev \
+	libicu-dev libssl-dev libbz2-dev zlib1g-dev libudev-dev linux-headers-amd64
+```
+
+**Ubuntu** (16.04):
+
+```
+$ sudo apt-get install cmake clang bison flex xz-utils libfuse-dev libxml2-dev \
+	libicu-dev libssl-dev libbz2-dev zlib1g-dev libudev-dev linux-headers-generic
+```
+
+**Arch Linux** (4.8):
+
+```
+$ sudo pacman -S cmake clang flex icu fuse
+```
 
 ### For running i386 OS X binaries
 You can omit this if you don’t need running 32-bit binaries.
@@ -67,8 +86,25 @@ make
 make install
 ```
 
-Required additional dependencies on **Debian** (stable): libc6-dev-i386 libudev-dev:i386 lib32stdc++-4.9-dev
-Required additional dependencies on **Ubuntu** (15.10): libc6-dev-i386 libudev-dev:i386 lib32stdc++-4.9-dev (use current versions!)
+Required additional dependencies (on top of the x86_64 dependencies):
+
+**Debian** (stable):
+
+```
+$ sudo apt-get install libc6-dev-i386 libudev-dev:i386 lib32stdc++-4.9-dev
+```
+
+**Ubuntu** (15.10):
+
+```
+$ sudo apt-get install libc6-dev-i386 libudev-dev:i386 lib32stdc++-4.9-dev (use current versions!)
+```
+
+**Arch Linux** (4.8):
+
+```
+$ sudo pacman -S lib32-libstdc++5 lib32-clang
+```
 
 ### Loading the kernel module
 
