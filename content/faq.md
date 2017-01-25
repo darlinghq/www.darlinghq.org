@@ -13,7 +13,7 @@ No, no part of this project contains code covered under Apple’s EULA. As long 
 
 **Why are you spending time dealing with apps that have better alternatives on Linux?**
 
-These applications turned to be good and simple enough for testing. You cannot build a complex project by focusing on something very complicated from the beginning. You have to start small and thing big.
+These applications turned to be good and simple enough for testing. You cannot build a complex project by focusing on something very complicated from the beginning. You have to start small and think big.
 
 **When will it run XYZ?**
 
