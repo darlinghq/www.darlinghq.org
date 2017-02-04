@@ -32,6 +32,9 @@ theme = "darlinghq"
 	name = "Wiki"
 	url = "https://wiki.darlinghq.org"
 [[menu.sites]]
+	name = "Development Blog"
+	url = "http://blog.darlinghq.org"
+[[menu.sites]]
 	name = "GitHub Site"
 	url = "https://github.com/darlinghq/darling"
 [[menu.sites]]
