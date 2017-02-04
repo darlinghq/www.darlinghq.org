@@ -20,8 +20,8 @@ theme = "darlinghq"
 	url = "/faq/"
 	weight = 3
 [[menu.main]]
-	name = "Developer Zone"
-	url = "/developer-zone/"
+	name = "Development Blog"
+	url = "http://blog.darlinghq.org"
 	weight = 4
 [[menu.main]]
 	name = "Contact"
