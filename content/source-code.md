@@ -11,7 +11,7 @@ Like OS X, Darling includes **MANY** third party components. These are typically
 git clone --recursive https://github.com/darlinghq/darling.git
 ```
 
-See the [build instructions](/build-instructions).
+See the [build instructions](https://wiki.darlinghq.org/build_instructions).
 
 ### darling-dmg <a href="http://teamcity.dolezel.info/viewType.html?buildTypeId=DarlingDmg_Build&#038;guest=1"><img src="http://teamcity.dolezel.info/app/rest/builds/buildType:(id:DarlingDmg_Build)/statusIcon"/></a>
 
