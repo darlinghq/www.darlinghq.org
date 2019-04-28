@@ -33,6 +33,6 @@ No, it cannot. Darling requires a real Linux kernel.
 
 **Will you support applications for iPhone/iPod/iPad?**
 
-The intention is to support the ARM platform on the lowest levels (the dynamic loader an the Objective-C runtime). Rewriting the frameworks used on iOS is a whole different story, though. See [iOS Support Information](/for-developers/ios-support-information).
+The intention is to support the ARM platform on the lowest levels (the dynamic loader and the Objective-C runtime). Rewriting the frameworks used on iOS is a whole different story, though. See [iOS Support Information](/for-developers/ios-support-information).
 
 
