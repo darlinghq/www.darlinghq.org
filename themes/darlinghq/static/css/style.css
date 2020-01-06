@@ -224,11 +224,9 @@ ul.faq a {
 	nav ul li a {
 		padding: 5px 20px;
 	}
-	nav:hover {
+	nav {
 		background: rgb(135, 167, 255);
-	}
-	nav:not(:hover) ul {
-		display: none;
+                width: 100%;
 	}
 	nav::before {
 		display: block;
