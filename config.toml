@@ -5,11 +5,11 @@ theme = "darlinghq"
 
 [[menu.main]]
 	name = "Install"
-	url = "https://wiki.darlinghq.org/build_instructions"
+	url = "http://docs.darlinghq.org/build-instructions.html"
 	weight = 1
 [[menu.main]]
 	name = "Docs"
-	url = "https://wiki.darlinghq.org/"
+	url = "http://docs.darlinghq.org/"
 	weight = 2
 [[menu.main]]
 	name = "Blog"
