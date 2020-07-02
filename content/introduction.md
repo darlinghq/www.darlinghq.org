@@ -10,9 +10,9 @@ The aim of the Darling project is to provide the following:
 * runtime, system library and framework reimplementations to enable OS X executables to function;
 * additional tools to assist with application installation.
 
-## Wiki
+## Docs
 
-This is just an introductory article. You can always learn more by visiting the [wiki](https://wiki.darlinghq.org/).
+This is just an introductory article. You can always learn more by visiting the [documentation](https://docs.darlinghq.org/).
 
 ## Running Applications
 
