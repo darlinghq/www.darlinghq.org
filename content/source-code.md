@@ -11,9 +11,9 @@ Like OS X, Darling includes **MANY** third party components. These are typically
 git clone --recursive https://github.com/darlinghq/darling.git
 ```
 
-See the [build instructions](https://wiki.darlinghq.org/build_instructions).
+See the [build instructions](https://docs.darlinghq.org/build-instructions.html).
 
-### darling-dmg <a href="http://teamcity.dolezel.info/viewType.html?buildTypeId=DarlingDmg_Build&#038;guest=1"><img src="http://teamcity.dolezel.info/app/rest/builds/buildType:(id:DarlingDmg_Build)/statusIcon"/></a>
+### darling-dmg
 
 darling-dmg is a component of Darling used for mounting DMG disk images (with an HFS+ filesystem) through FUSE. It can be used standalone, without the rest of Darling, or even as a library in your own project.
 
