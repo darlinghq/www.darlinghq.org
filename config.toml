@@ -5,15 +5,15 @@ theme = "darlinghq"
 
 [[menu.main]]
 	name = "Install"
-	url = "http://docs.darlinghq.org/build-instructions.html"
+	url = "https://docs.darlinghq.org/build-instructions.html"
 	weight = 1
 [[menu.main]]
 	name = "Docs"
-	url = "http://docs.darlinghq.org/"
+	url = "https://docs.darlinghq.org/"
 	weight = 2
 [[menu.main]]
 	name = "Blog"
-	url = "http://blog.darlinghq.org"
+	url = "https://blog.darlinghq.org"
 	weight = 3
 [[menu.main]]
 	name = "GitHub"
