@@ -3,7 +3,7 @@ title:	"Contact"
 ---
 # Contact
 
-Darling is Copyright © 2012-2018 [Luboš Doležel](http://www.dolezel.info).
+Darling is Copyright © 2012-2022 [Luboš Doležel](http://www.dolezel.info).
 
 * **IRC**: #darling at Freenode.
 * **Google Group**: [darling-project](https://groups.google.com/forum/#!forum/darling-project)
