@@ -20,6 +20,10 @@ theme = "darlinghq"
 	url = "https://github.com/darlinghq/darling"
 	weight = 4
 [[menu.main]]
+	name = "Donate"
+	url = "https://opencollective.com/darlinghq"
+	weight = 5
+[[menu.main]]
 	name = "Discord"
 	url = "https://discord.gg/XRD3mQA"
-	weight = 5
+	weight = 6
